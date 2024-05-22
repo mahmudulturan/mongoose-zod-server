@@ -1,6 +1,6 @@
 import express, { NextFunction, Request, Response } from 'express';
-import productsRoutes from './modules/products/products.routes';
-import ordersRoutes from './modules/orders/orders.routes';
+import productsRoutes from './app/modules/products/products.routes';
+import ordersRoutes from './app/modules/orders/orders.routes';
 import { ZodError } from 'zod';
 
 const app = express();

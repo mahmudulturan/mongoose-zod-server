@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 import app from './app';
-import configs from './configs';
+import configs from './app/configs';
 
 // main function for run the server
 async function main() {
